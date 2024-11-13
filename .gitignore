@@ -1,4 +1,5 @@
-﻿Library/
+﻿# Thư mục và tệp nên bỏ qua
+Library/
 Temp/
 Logs/
 UserSettings/
@@ -6,3 +7,8 @@ UserSettings/
 *.csproj
 *.sln
 *.user
+
+# Đảm bảo theo dõi các thư mục cần thiết
+!Assets/
+!Packages/
+!ProjectSettings/
